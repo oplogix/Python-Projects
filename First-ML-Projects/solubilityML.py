@@ -2,7 +2,7 @@ import pandas as pd
 
 
 # Loading Dataset of Molecules Solubility using Physics-informed Learning
-df = pd.read_csv('delaney_solubility_with_descriptors.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/oplogix/Projects/main/First-ML-Projects/delaney_solubility_with_descriptors.csv')
 
 
 #Data Preparation
@@ -81,26 +81,24 @@ df_models = pd.concat([lr_results, rf_results], axis=0).reset_index(drop=True)
 print(df_models)
 
 
+# Creating ScatterPlot
 
+import matplotlib.pyplot as plt
+import numpy as np
 
+x = [y_train]
+y = [y_lr_train_pred]
 
+plt.figure(figsize=(10,10))
+plt.scatter(x, y, alpha=0.3)
+plt.title("Linear Regression Graph")
+plt.ylabel('Predict LogS')
+plt.xlabel('Expirimental LogS')
+plt.show()
 
-# ------------------- Scatter Plot ---------------------
-# Data Visualization of Prediction Results
-
-# import matplotlib.pyplot as plt
-# import numpy as np
-
-# Scatter Plot (In progress, not working)
-# plt.figure(figsize=(5,5))
-# plt.scatter(x=y_train, y=y_lr_train_pred, alpha=0.3)
-
-# z = np.polyfit(y_train, y_lr_train_pred, 1)
+# #Get Trendline Coefficients and Polynomial
+# z = np.polyfit(x, y, 1) -  ("expected 1D vector for x") - https://stackoverflow.com/questions/33177548/typeerror-expected-1d-vector-for-x
 # p = np.poly1d(z)
 
-# plt.plot(y_train, p(y_train), '#F8766D')
-# plt.ylabel('Predict LogS')
-# plt.xlabel('Experimental LogS')
-
-# -----------------------------------------------------
-
+# #Add Trendline
+# plt.plot(x, p(x), '#F8766D')
