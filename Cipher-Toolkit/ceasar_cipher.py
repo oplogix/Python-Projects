@@ -8,7 +8,6 @@ print('''
 ((/ __|| __|(_)_\(_)/ __|  (_)_\(_)| _ \  ((/ __||_ _|| _ \ | || || __|| _ \  
  | (__ | _|  / _ \  \__ \   / _ \  |   /   | (__  | | |  _/ | __ || _| |   /  
   \___||___|/_/ \_\ |___/  /_/ \_\ |_|_\    \___||___||_|   |_||_||___||_|_\  
-by Oplogix                                                                             
 ''')
 print("Welcome to the Caesar Cipher Tool")
 print("Type 'exit' to exit")
@@ -19,10 +18,7 @@ def get_choice():
     choice = input("Enter your choice (enc/dec): ")
     return choice
 
-# Get the user's choice
-user_choice = get_choice()
-
-# Define the Caesar cipher functions for both encoding and decoding
+# Define the Caesar cipher function for both encoding and decoding
 def caesar(text, step):
     result = ''
     for char in text:
@@ -53,18 +49,14 @@ def encode():
 
 # Main program logic
 while True:
-    if user_choice == "dec":
-        decode()
-    elif user_choice == "enc":
+    user_choice = get_choice()
+    
+    if user_choice == "enc":
         encode()
+    elif user_choice == "dec":
+        decode()
     elif user_choice == "exit":
         print("Goodbye!")
         break
     else:
-        print("Invalid choice. Please enter 'enc' or 'dec'.")
-
-    # Ask the user if they want to continue
-    user_choice = input("Do you want to encode or decode another message (enc/dec) or exit? ")
-    if user_choice == "exit":
-        print("Goodbye!")
-        break
+        print("Invalid choice. Please enter 'enc', 'dec', or 'exit'.")
