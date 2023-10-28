@@ -42,6 +42,8 @@ The Cipher Toolkit includes the following ciphers:
 
 3. Substitution Cipher: Encrypts and decrypts messages by substituting each character in the input message with the corresponding character from a user-defined or randomly generated key.
 
+4. Atbash Cipher: Substitution cipher that replaces each letter in the plaintext with its counterpart from the reverse end of the alphabet, preserving case and non-alphabet characters. 
+
 ## Adding New Ciphers
 The Cipher Toolkit is designed to be extensible. If you'd like to add a new cipher, follow these steps:
 
