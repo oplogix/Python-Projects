@@ -38,7 +38,8 @@ Decoding (Decryption)
 Choose "dec" when prompted.
 Enter the Caesar cipher message.
 The tool will attempt to decode the message using all possible shift values and display the results.
-Contributing
+
+## Contributing
 If you'd like to contribute to this project, feel free to open an issue or submit a pull request. We welcome your contributions!
 
 ## License
