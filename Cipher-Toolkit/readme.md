@@ -1,46 +1,47 @@
-# Caesar Cipher Tool
+# Cipher Toolkit
 
-Welcome to the Caesar Cipher Tool, a simple Python program for encoding and decoding messages using the Caesar cipher. This tool allows you to encrypt and decrypt text by shifting the letters in the alphabet by a fixed number of positions.
+Welcome to the Cipher Toolkit, a Python program that provides a collection of ciphers for encrypting and decrypting messages. This toolkit includes various ciphers, and you can easily add more as needed.
 
 ## Table of Contents
 
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Examples](#examples)
+- [Included Ciphers](#included-ciphers)
+- [Adding New Ciphers](#adding-new-ciphers)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Getting Started
 
-To get started with the Caesar Cipher Tool, follow these steps:
+To get started with the Cipher Toolkit, follow these steps:
 
 1. **Clone the Repository**: Clone this repository to your local machine using Git.
 
    ```sh
-   git clone https://github.com/your-username/caesar-cipher-tool.git
+   git clone https://github.com/your-username/cipher-toolkit.git
+Usage
+Upon running the cipher_toolkit.py script, you will be presented with a main menu where you can choose from the available ciphers and perform encryption or decryption. The toolkit is designed to be user-friendly and allows you to interact with various ciphers effortlessly.
 
-## Usage
-The Caesar Cipher Tool provides two main functionalities:
+## Included Ciphers
+The Cipher Toolkit includes the following ciphers:
 
-Encoding (Encryption): Enter enc when prompted and provide the plaintext and the shift value. The tool will encode the plaintext using the Caesar cipher.
+1. Caesar Cipher: A simple substitution cipher that shifts characters in the alphabet by a fixed number of positions.
 
-Decoding (Decryption): Enter dec when prompted and provide the Caesar cipher message. The tool will attempt to decode the message using all possible shift values.
+2. ROT-13 Cipher: A specific case of the Caesar cipher, which shifts characters by 13 positions. It's often used for basic text obfuscation.
 
-Follow the on-screen instructions to input your choice and messages.
+## Adding New Ciphers
+The Cipher Toolkit is designed to be extensible. If you'd like to add a new cipher, follow these steps:
 
-## Examples
-Encoding (Encryption)
-Choose "enc" when prompted.
-Enter the plaintext you want to encrypt.
-Provide the shift value (a number to shift the letters in the alphabet).
-The tool will display the encrypted message.
-Decoding (Decryption)
-Choose "dec" when prompted.
-Enter the Caesar cipher message.
-The tool will attempt to decode the message using all possible shift values and display the results.
+1. Create a new Python module for your cipher (e.g., my_cipher.py) and implement the cipher's encryption and decryption logic within the module.
+
+2. In the cipher_toolkit.py script, use importlib to dynamically load your new cipher module based on user choice in the main menu.
+
+3. Update the main menu to include your new cipher as an option.
+
+4. With this structure, you can easily expand the toolkit with additional ciphers of your choice.
 
 ## Contributing
-If you'd like to contribute to this project, feel free to open an issue or submit a pull request. We welcome your contributions!
+We welcome contributions to the Cipher Toolkit. If you'd like to add new ciphers, improve existing ones, or make other enhancements, feel free to open an issue or submit a pull request. Your contributions are appreciated!
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License. See the LICENSE file for details.
