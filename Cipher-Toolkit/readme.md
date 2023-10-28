@@ -19,7 +19,18 @@ To get started with the Cipher Toolkit, follow these steps:
 
    ```sh
    git clone https://github.com/your-username/cipher-toolkit.git
-Usage
+
+2. **Navigate to the Directory**: Change your current directory to the cloned repository.
+
+   ```sh
+   cd cipher-toolkit
+
+3. **Run the Toolkit**: Run the cipher_toolkit.py script to access the ciphers.
+
+   ```sh
+   python cipher_toolkit.py
+   
+## Usage
 Upon running the cipher_toolkit.py script, you will be presented with a main menu where you can choose from the available ciphers and perform encryption or decryption. The toolkit is designed to be user-friendly and allows you to interact with various ciphers effortlessly.
 
 ## Included Ciphers
