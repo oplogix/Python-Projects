@@ -36,13 +36,13 @@ Upon running the cipher_toolkit.py script, you will be presented with a main men
 ## Included Ciphers
 The Cipher Toolkit includes the following ciphers:
 
-1. Caesar Cipher: A simple substitution cipher that shifts characters in the alphabet by a fixed number of positions.
+1. **Caesar Cipher**: A simple substitution cipher that shifts characters in the alphabet by a fixed number of positions.
 
-2. ROT-13 Cipher: A specific case of the Caesar cipher, which shifts characters by 13 positions. It's often used for basic text obfuscation.
+2. **ROT-13 Cipher**: A specific case of the Caesar cipher, which shifts characters by 13 positions. It's often used for basic text obfuscation.
 
-3. Substitution Cipher: Encrypts and decrypts messages by substituting each character in the input message with the corresponding character from a user-defined or randomly generated key.
+3. **Substitution Cipher**: Encrypts and decrypts messages by substituting each character in the input message with the corresponding character from a user-defined or randomly generated key.
 
-4. Atbash Cipher: Substitution cipher that replaces each letter in the plaintext with its counterpart from the reverse end of the alphabet, preserving case and non-alphabet characters. 
+4. **Atbash Cipher**: Substitution cipher that replaces each letter in the plaintext with its counterpart from the reverse end of the alphabet, preserving case and non-alphabet characters. 
 
 ## Adding New Ciphers
 The Cipher Toolkit is designed to be extensible. If you'd like to add a new cipher, follow these steps:
