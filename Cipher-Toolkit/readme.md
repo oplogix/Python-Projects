@@ -40,6 +40,8 @@ The Cipher Toolkit includes the following ciphers:
 
 2. ROT-13 Cipher: A specific case of the Caesar cipher, which shifts characters by 13 positions. It's often used for basic text obfuscation.
 
+3. Substitution Cipher: Encrypts and decrypts messages by substituting each character in the input message with the corresponding character from a user-defined or randomly generated key.
+
 ## Adding New Ciphers
 The Cipher Toolkit is designed to be extensible. If you'd like to add a new cipher, follow these steps:
 
