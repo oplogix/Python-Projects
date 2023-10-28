@@ -18,7 +18,8 @@ To get started with the Caesar Cipher Tool, follow these steps:
 
    ```sh
    git clone https://github.com/your-username/caesar-cipher-tool.git
-Usage
+
+## Usage
 The Caesar Cipher Tool provides two main functionalities:
 
 Encoding (Encryption): Enter enc when prompted and provide the plaintext and the shift value. The tool will encode the plaintext using the Caesar cipher.
@@ -27,7 +28,7 @@ Decoding (Decryption): Enter dec when prompted and provide the Caesar cipher mes
 
 Follow the on-screen instructions to input your choice and messages.
 
-Examples
+## Examples
 Encoding (Encryption)
 Choose "enc" when prompted.
 Enter the plaintext you want to encrypt.
@@ -40,5 +41,5 @@ The tool will attempt to decode the message using all possible shift values and 
 Contributing
 If you'd like to contribute to this project, feel free to open an issue or submit a pull request. We welcome your contributions!
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
