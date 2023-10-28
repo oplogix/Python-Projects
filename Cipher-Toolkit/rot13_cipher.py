@@ -8,9 +8,9 @@ print('''
 | _ \  / _ \|_   _|      / (_)|__ (_) 
 |   / | (_) | | |        | |   |_ \   
 |_|_\  \___/  |_|        |_|  |___/   
-                                      
-Type 'exit' to exit
 ''')
+print("Welcome to the ROT-13 Cipher Tool")
+print("Type 'exit' to exit")
 
 # Define a function to get the user's choice (encode or decode)
 def get_choice():
