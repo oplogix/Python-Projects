@@ -6,12 +6,8 @@ Sliding Tile Puzzle is a Python console-based game where the player uses the WAS
 
 1. Clone or download the repository to your local machine.
 2. Run the `sliding_tile_puzzle.py` script using Python.
-
-```sh
-  python sliding_tile_puzzle.py
-
-1. Follow the on-screen instructions to make moves by entering 'W' (up), 'A' (left), 'S' (down), or 'D' (right).
-2. Continue making moves until you successfully solve the puzzle.
+3. Follow the on-screen instructions to make moves by entering 'W' (up), 'A' (left), 'S' (down), or 'D' (right).
+4. Continue making moves until you successfully solve the puzzle.
 
 ## Features
 A 4x4 grid that represents the sliding tile puzzle.
