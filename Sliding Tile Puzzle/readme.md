@@ -2,8 +2,6 @@
 
 Sliding Tile Puzzle is a Python console-based game where the player uses the WASD keys to move tiles and rearrange them into their original order. The goal of the game is to restore the puzzle to its solved state.
 
-![Sliding Tile Puzzle Screenshot](screenshot.png)
-
 ## How to Play
 
 1. Clone or download the repository to your local machine.
