@@ -12,11 +12,11 @@ output_file: Path to the output text file.
 append_text: Text to append at the start of each line.
 prepend_text: Text to prepend at the end of each line.
 ### Options
--a, --append: Append text to the start of each line.
--p, --prepend: Prepend text to the end of each line.
--s, --spaces: Remove all white spaces in each line.
--U, --upper: Make all letters uppercase.
--L, --lower: Make all text lowercase.
+- -a, --append: Append text to the start of each line.
+- -p, --prepend: Prepend text to the end of each line.
+- -s, --spaces: Remove all white spaces in each line.
+- -U, --upper: Make all letters uppercase.
+- -L, --lower: Make all text lowercase.
 
 ## Example Usage
 Example 1:
